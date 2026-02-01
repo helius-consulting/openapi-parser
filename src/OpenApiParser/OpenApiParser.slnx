@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="OpenApiV3Parser/OpenApiV3Parser.csproj" Id="2752347e-4acb-4f6b-99e6-5b136f072b4b" />
+  </Folder>
+  <Project Path="OpenApiV3Parser.Tests/OpenApiV3Parser.Tests.csproj" Id="887e92e9-640b-4c47-b165-07c43c247b20" />
+</Solution>

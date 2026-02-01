@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>OpenApiV3Parser</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Helius Consulting</Authors>
+    <Company>Helius Consulting</Company>
+    <Product>OpenApiV3Parser</Product>
+    <Description>A lightweight OpenAPI v3 parser for .NET Standard 2.0 that parses OpenAPI specification documents and maps them to strongly-typed C# models.</Description>
+    <PackageTags>openapi;swagger;api;parser;openapi3;rest;netstandard</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/helius-consulting/openapi-parser</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/helius-consulting/openapi-parser</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="10.0.2" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png" Pack="true" PackagePath="\" Condition="Exists('..\icon.png')" />
+  </ItemGroup>
+
+</Project>
